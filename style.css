@@ -3,7 +3,7 @@
     direction: rtl;
     margin:0;
     padding:0;
-   
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     height: 100vh;
@@ -39,6 +39,7 @@ li{
     border: 1px solid blue;
     width:32vw;
     margin: 7px;
+    color: gray;
 }
 .bottom-section > h4{
     display: flex;
@@ -46,8 +47,10 @@ li{
 }
 .last-section{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    border: 1px solid blue;
     width:32vw;
+    margin: 7px;
     /* margin: 7px; */
 }
 .last-section2{
@@ -60,21 +63,32 @@ li{
     display:flex;
     flex-direction:column;
 }
-.main-content > section{
+.last-section2 > img{
+    margin-left: 0px;
+}
+
+.main-content > .upper-section{
     width:32vw;
     margin: 7px;
-
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .on-picture{
-    position:absolute;
+    position:relative;
     background-color: gray;
-    top: 295px;
-    right: 5px;
-    width: 245px;
+    opacity: 0.8;
+    bottom: 60px;
+    right: 8px;
+    /* width: 25vh; */
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 }
-section{
+/* .upper-section{
     position: relative;
-}
+} */
 footer{
     position: fixed;
     left: 0;
@@ -82,9 +96,14 @@ footer{
     width: 100%;
     background-color: gray;
     text-align: center;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to top,#757676, #7c7d7e, #838485, #8b8c8d, #939595, #9c9d9e, #a4a6a6);
 }
 header{
-    background-color: gray;
+    /* background-color: gray; */
+    /* background-image: linear-gradient(gray, white); */
+    background-image: linear-gradient(to bottom,#757676, #7c7d7e, #838485, #8b8c8d, #939595, #9c9d9e, #a4a6a6);
 }
 .articles{
     padding-top: 20px;
@@ -102,10 +121,47 @@ input[type="button"]{
 }
 .header-list{
     justify-content: space-evenly;
+    color:gainsboro;
 }
 .last-section > div > h4{
     margin-right: 7px;
 }
 .last-section{
     border: solid blue 1px;
+    color: gray;
+}
+.bottom-section-links > a{
+    text-decoration: none;
+    color: gray;
+}
+.header-list > li > a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.search-bar > a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .paz-pic{
+    position: relative ;
+} */
+.absolute-img{
+    position: absolute;
+    margin-right: 0%;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    align-self:flex-start;
+}
+/* .search-bar{
+    position: relative;
+} */
+
+.on-picture > a, .on-picture > p{
+    color: white;
+    /* text-decoration: none; */
+    font-size: 14px;
 }
