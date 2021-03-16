@@ -6,37 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
 </head>
 <body>
     <header>
         <div class="content">
             <br>
             <div class="search-bar">
-                <a href="some-link">English</a>
+                <a class="change-to-blue" href="some-link">English</a>
                 <input type="text" id="search-bar">
-                <input type="button" id="header-search-button">
+                <a href="#"><img src="search_button.png"></a>
+
+                <!-- <input type="button" id="header-search-button"> <img src="search_button.png"> -->
             </div>
             <img class="absolute-img" src="paz.png" alt="">
             <br>
             <nav>
                 <ul class="header-list">
                     <!-- <li class="paz-pic"><a class="absolute-img"  href=""><img src="paz.png" alt=""></a></li> -->
-                    <li><a href="">,,,,,,,,,,,,,,,,,,,,אודות</a></li>
-                    <li><a href=""><img src="house.png" alt=""></a></li>
-                    <li>|</li>
-                    <li><a href="">אודות</a></li>
-                    <li>|</li>
-                    <li><a href="">חטיבות</a></li>
-                    <li>|</li>
-                    <li><a href="">אחריות תאגידית</a></li>
-                    <li>|</li>
-                    <li><a href="">קשרי משקיעים</a></li>
-                    <li>|</li>
-                    <li><a href="">התחנות שלנו</a></li>
-                    <li>|</li>
-                    <li><a href="">קריירה</a></li>
-                    <li>|</li>
-                    <li><a href="">חדשות ומדיה</a></li>
+                    <li><a href="C:\Users\Home\Documents\קורס web\Mid Exercise\Mid-Exercise\index.html"><img src="house.png" alt=""></a>
+                        
+                    </li>
+                    <li class="pipe">|</li>
+                    <li class="odot"><a href="">אודות</a>
+                        <div class="odot-menu">
+                            <ul class="odot-menu-content">
+                                <li><a class="change-to-blue" href="">אודות</a></li>
+                                <li><a class="change-to-blue" href="">הסטוריה</a></li>
+                                <li><a class="change-to-blue" href="">חזון וערכים</a></li>
+                                <li><a class="change-to-blue" href="">מבנה הקבוצה</a></li>
+                                <li><a class="change-to-blue" href="">חברי דירקטוריון</a></li>
+                                <li><a class="change-to-blue"href="">הנהלת הקבוצה</a></li>
+                                <li><a class="change-to-blue" href="">פרסים</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="pipe">|</li>
+                    <li class="chativot"><a href="">חטיבות</a>
+                        <div class="chativot-menu">
+                            <ul class="chativot-menu-content">
+                                <li><a class="change-to-blue" href="">חטיבות</a></li>
+                                <li><a class="change-to-blue" href="">קמעונאות ומסחר</a></li>
+                                <li><a class="change-to-blue" href="">תעשיות ושרותים</a></li>
+                                <li><a class="change-to-blue" href="">זיקוק</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="pipe">|</li>
+                    <li><a class="change-to-blue" href="">אחריות תאגידית</a></li>
+                    <li class="pipe">|</li>
+                    <li><a class="change-to-blue" href="">קשרי משקיעים</a></li>
+                    <li class="pipe">|</li>
+                    <li><a class="change-to-blue" href="">התחנות שלנו</a></li>
+                    <li class="pipe">|</li>
+                    <li><a class="change-to-blue" href="">קריירה</a></li>
+                    <li class="pipe">|</li>
+                    <li><a class="change-to-blue" href="">חדשות ומדיה</a></li>
                 </ul>
             </nav>
 
@@ -44,29 +69,30 @@
     </header>
     <main>
         <div class="articles">
-            <div class="main-content">
+            <div class="main-content first">
                 <div class="upper-section">
                     <img src="firstImg.JPG" alt="">
                     <div class="on-picture">
-                        <h4>header</h4>
-                        <p>some text</p>
-                        <a href="">icon link</a><a href="">link</a>
+                        <h4>קמעונאות ומסחר</h4>
+                        <!-- read_more_white.png -->
+                        <p>במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות</p>
+                        <a href=""></a><a class="change-to-blue read-more" href="">קרא עוד<img class="blue-img" src="read_more_blue.png" alt=""><img class="white-img" src="read_more_white.png" alt=""></a>
                     </div>
                 </div>
                 <div class="upper-section">
                     <img src="secondImg.jpg" alt="">
                     <div class="on-picture">
-                        <h4>header</h4>
-                        <p>some text</p>
-                        <a href="">icon link</a><a href="">link</a>
+                        <h4>זיקוק</h4>
+                        <p>פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת בניהול פעילות בית הזיקוק באשדוד, הכוללת ייצור תזקיקי נפט...</p>
+                        <a href=""></a><a class="change-to-blue read-more" href="">קרא עוד<img class="blue-img" src="read_more_blue.png" alt=""><img class="white-img" src="read_more_white.png" alt=""></a>
                     </div>
                 </div>
                 <div class="upper-section">
                     <img src="thirdImg.jpg" alt="">
                     <div class="on-picture">
-                        <h4>header</h4>
-                        <p>some text</p>
-                        <a href="">icon link</a><a href="">link</a>
+                        <h4>תעשיות ושרותים</h4>
+                        <p>תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח, ייצור ושיווק מוצרי לוואי של נפט, ומובילות את השוק...</p>
+                        <a href=""></a><a class="change-to-blue read-more" href="">קרא עוד<img class="blue-img" src="read_more_blue.png" alt=""><img class="white-img" src="read_more_white.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -75,30 +101,34 @@
             <div class="main-content">
                 <div class="bottom-section">
                     <h4>כרטיס אשראי שופרסל וכרטיס אשראי יש</h4>
+                    <div class="bottom-border"></div>
                     <img src="2-1.jpg" alt="">
                     <div class="bottom-section-links">
-                        <a href="">לפרטים נוספים</a>
-                        <a href="">3 dots icon</a>
+                        <a class="change-to-blue" href="">לפרטים נוספים</a>
+                        <a href=""><a href=""><img src="read_more_blue.png" alt=""></a></a>
                     </div>
                 </div>
                 <div class="bottom-section">
                     <h4>yellow click&pick</h4>
-                    <img src="2.2.jpg" alt="">
+                    <div class="bottom-border"></div>
+                    <img id="pic1" src="2.2.jpg" alt="">
+                    <!-- <img id="pic2" src="pic2.jpg" alt=""> -->
                     <div class="bottom-section-links">
-                        <a href="">לפרטים נוספים</a>
-                        <a href="">3 dots icon</a>
+                        <a class="change-to-blue" href="">לפרטים נוספים</a>
+                        <a href=""><a href=""><img src="read_more_blue.png" alt=""></a></a>
                     </div>
                 </div>
                 <div class="last-section">
                     <div><h4>התחנות שלנו בדרך שלך</h4></div>
+                    <div class="bottom-border"></div>
                     <div class="last-section2">
                         <div class="bottom-section-links">
-                            <a href="">צפון </a>
-                            <a href="">3 dots icon</a>
-                            <a href="">מרכז</a>
-                            <a href="">3 dots icon</a>
-                            <a href="">דרום</a>
-                            <a href="">3 dots icon</a>
+                            <a class="change-to-blue" href="">צפון           <img src="read_more_blue.png" alt=""></a>
+                            <!-- <a href=""><a href=""><img src="read_more_blue.png" alt=""></a></a> -->
+                            <a class="change-to-blue" href="">מרכז <img src="read_more_blue.png" alt=""></a>
+                            <!-- <a href=""><a href=""><img src="read_more_blue.png" alt=""></a></a> -->
+                            <a class="change-to-blue" href="">דרום <img src="read_more_blue.png" alt=""></a>
+                            <!-- <a href=""><img src="read_more_blue.png" alt=""></a> -->
                         </div>
                         <img src="last-section.png" alt="">
                     </div>
@@ -107,29 +137,46 @@
         </div>
     </main>
     <footer>
-        <nav>
-            <ul>
+        <nav class="footer-nav">
+            <ul class="footer-list">
                 <li><a href=""><img src="fb_icon.png" alt="facebook img"></a></li>
                 <li>|</li>
-                <li><a href=""></a>עמוד הבית</li>
+                <li><a class="change-to-blue" href="">עמוד הבית</a></li>
                 <li>|</li>
-                <li><a href=""></a>מחירונים</li>
+                <li><a class="change-to-blue" href="">מחירונים</a></li>
                 <li>|</li>
-                <li><a href=""></a>קריירה</li>
+                <li><a class="change-to-blue" href="">קריירה</a></li>
                 <li>|</li>
-                <li><a href=""></a>תנאי שימוש</li>
+                <li><a class="change-to-blue" href="">תנאי שימוש</a></li>
                 <li>|</li>
-                <li><a href=""></a>נגישות</li>
+                <li><a class="change-to-blue" href="">נגישות</a></li>
                 <li>|</li>
-                <li><a href=""></a>מפת אתר</li>
+                <li><a class="change-to-blue" href="">מפת אתר</a></li>
                 <li>|</li>
-                <li><a href=""></a>צור קשר</li>
+                <li><a class="change-to-blue" href="C:\Users\Home\Documents\קורס web\Mid Exercise\Mid-Exercise\contact.html">צור קשר</a></li>
                 <li>|</li>
-                <li><a href=""></a>שטחי מסחר</li>
+                <li><a class="change-to-blue" href="">שטחי מסחר</a></li>
                 <li>|</li>
-                <li><a href=""></a>הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט</li>
+                <li><a class="change-to-blue" href="">סדר פשרה בתובענה הייצוגית בעניין הסדר פזומט</a></li>
             </ul>
         </nav>
     </footer>
+    <!-- <script>
+        // changePics();
+        function changePics(){
+            var pic1 = document.getElementById('pic1')
+            var pic1 = document.getElementById('pic2')
+            pic1.style.display = 'none';
+            pic2.style.display = 'none';
+
+            while(true)
+            {
+                pic1.style.display = 'block';  
+                setTimeout(changePics, 2000); // Change image every 2 seconds
+                pic2.style.display = 'block';
+                setTimeout(changePics, 2000);
+            }
+            }
+    </script> -->
 </body>
 </html>
