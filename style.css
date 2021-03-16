@@ -68,7 +68,7 @@ button{
 /* .formfields > div{
     display: flex;
     /* justify-content: space-between; */
-} */
+
 /* .link-bg{
     background-image: linear-gradient(to bottom, #ffffff, #fcfcfc, #faf9fa, #f7f7f7, #f4f4f5, #f2f2f3, #f0f1f2, #eeeff0, #eceeee, #eaeced, #e9ebeb, #e7e9e9);
 } */
@@ -172,7 +172,7 @@ p, label{
     margin-right: 20px;
     margin-top: 14px;
 }
-}
+
 .main-content2-header{
     display: flex;
     flex-direction: column;
